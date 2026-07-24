@@ -145,7 +145,7 @@ summary:focus-visible {
   height: 70%;
   object-fit: cover;
   object-position: left center;
-  opacity: 0.55;
+  opacity: 0.46;
   transform: translateY(-50%);
   filter: saturate(0.82) contrast(1.08);
 }
