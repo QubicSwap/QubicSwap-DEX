@@ -9,6 +9,12 @@ QubicSwap DEX is a Qubic decentralized exchange for token swaps, Qubic token tra
 - [Explore Qubic share markets](https://qubicswap.com/shares)
 - [Explore Qubic liquidity pools](https://qubicswap.com/earn)
 
+# Listed in the official Qubic ecosystem
+
+Qubic.org officially lists QubicSwap as a live Community DeFi project, with a dedicated profile for the Qubic community.
+[View QubicSwap on Qubic.org](https://qubic.org/ecosystem/qubicswap).
+
+
 ## Overview
 
 QubicSwap gives users direct access to Qubic markets and trading workflows from one app. It is built for Qubic token swaps, QX order book trading, Qubic share markets, QSwap liquidity, wallet connection, asset transfers, and fee review.
