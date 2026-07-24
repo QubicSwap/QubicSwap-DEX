@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QubicSwap DEX | Swap and Trade Qubic Tokens</title>
+    <meta
+      name="description"
+      content="QubicSwap is a decentralized exchange for the Qubic ecosystem. Swap Qubic tokens, trade Qubic assets on QX order books, and explore QSwap liquidity."
+    />
+    <meta
+      name="keywords"
+      content="QubicSwap, Qubic DEX, Qubic swap, swap Qubic, trade Qubic, Qubic exchange, QSwap, QX order book"
+    />
+    <meta name="author" content="QubicSwap" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#080d0e" />
+
+    <link rel="canonical" href="https://qubicswap.github.io/QubicSwap-DEX/" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./assets/qubicswap-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="QubicSwap DEX" />
+    <meta property="og:title" content="QubicSwap DEX | Swap and Trade Qubic Tokens" />
+    <meta
+      property="og:description"
+      content="Swap Qubic tokens, trade supported Qubic assets, follow QX order books, and explore QSwap liquidity."
+    />
+    <meta property="og:url" content="https://qubicswap.github.io/QubicSwap-DEX/" />
+    <meta
+      property="og:image"
+      content="https://qubicswap.github.io/QubicSwap-DEX/assets/tokens.webp"
+    />
+    <meta property="og:image:alt" content="QubicSwap Qubic token market interface" />
+    <meta property="og:image:width" content="760" />
+    <meta property="og:image:height" content="342" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="QubicSwap DEX | Swap and Trade Qubic Tokens" />
+    <meta
+      name="twitter:description"
+      content="A decentralized exchange interface for Qubic swaps, token markets, order books, and liquidity."
+    />
+    <meta
+      name="twitter:image"
+      content="https://qubicswap.github.io/QubicSwap-DEX/assets/tokens.webp"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://qubicswap.github.io/QubicSwap-DEX/#website",
+            "url": "https://qubicswap.github.io/QubicSwap-DEX/",
+            "name": "QubicSwap DEX",
+            "description": "A companion site for the QubicSwap decentralized exchange and its open GitHub repository.",
+            "inLanguage": "en"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://qubicswap.com/#application",
+            "name": "QubicSwap",
+            "url": "https://qubicswap.com/",
+            "applicationCategory": "FinanceApplication",
+            "operatingSystem": "Web",
+            "description": "A decentralized exchange interface for Qubic token swaps, QX order book trading, Qubic share markets, and QSwap liquidity.",
+            "sameAs": [
+              "https://github.com/QubicSwap/QubicSwap-DEX",
+              "https://qubic.org/ecosystem/qubicswap"
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://qubicswap.github.io/QubicSwap-DEX/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is QubicSwap?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "QubicSwap is a decentralized exchange interface for the Qubic ecosystem. It brings supported Qubic token swaps, QX order books, share markets, and QSwap liquidity into one app."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I swap Qubic tokens on QubicSwap?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. QubicSwap provides a swap interface for supported Qubic ecosystem tokens and shows route and fee context before wallet confirmation."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is the QubicSwap repository public?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The QubicSwap DEX information repository is publicly available on GitHub at github.com/QubicSwap/QubicSwap-DEX."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="https://qubicswap.com/" aria-label="QubicSwap home">
+        <img src="./assets/favicon.svg" alt="" width="36" height="36" />
+        <span>QUBIC<strong>Swap</strong></span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#markets">Markets</a>
+        <a href="#routes">Routes</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://github.com/QubicSwap/QubicSwap-DEX">GitHub</a>
+      </nav>
+
+      <a class="header-action" href="https://qubicswap.com/">Launch app</a>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-screen"
+          src="./assets/tokens.webp"
+          alt="QubicSwap token markets showing supported Qubic assets"
+          width="760"
+          height="342"
+        />
+        <div class="hero-shade" aria-hidden="true"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow"><span></span> Built for the Qubic ecosystem</p>
+          <h1 id="hero-title">QubicSwap<br />Qubic DEX</h1>
+          <p class="hero-copy">
+            Swap Qubic tokens, trade supported Qubic assets on QX order books,
+            explore share markets, and access QSwap liquidity from one focused interface.
+          </p>
+
+          <div class="hero-actions" aria-label="QubicSwap actions">
+            <a class="button button-primary" href="https://qubicswap.com/">Launch QubicSwap</a>
+            <a class="button button-secondary" href="https://github.com/QubicSwap/QubicSwap-DEX">
+              View GitHub repository
+            </a>
+          </div>
+
+          <dl class="hero-facts">
+            <div>
+              <dt>Network</dt>
+              <dd>Qubic</dd>
+            </div>
+            <div>
+              <dt>Trading</dt>
+              <dd>QX order books</dd>
+            </div>
+            <div>
+              <dt>Liquidity</dt>
+              <dd>QSwap pools</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="recognition" aria-labelledby="recognition-title">
+        <div>
+          <p class="section-label">Official ecosystem recognition</p>
+          <h2 id="recognition-title">Listed by Qubic.org</h2>
+        </div>
+        <p>
+          QubicSwap is listed as a live Community DeFi project in the official Qubic ecosystem
+          directory.
+        </p>
+        <a href="https://qubic.org/ecosystem/qubicswap">View the Qubic.org listing</a>
+      </section>
+
+      <section class="section markets" id="markets" aria-labelledby="markets-title">
+        <div class="section-heading">
+          <p class="section-label">One connected market surface</p>
+          <h2 id="markets-title">Move from discovery to execution</h2>
+          <p>
+            QubicSwap keeps the information around a trade close to the action, so traders can
+            compare a market, choose a route, and confirm through their wallet.
+          </p>
+        </div>
+
+        <div class="market-grid">
+          <article class="market-card market-card-wide">
+            <img
+              src="./assets/swap.webp"
+              alt="QubicSwap token swap interface"
+              width="520"
+              height="475"
+              loading="lazy"
+            />
+            <div class="market-card-copy">
+              <p class="card-index">01 / Swap</p>
+              <h3>Swap Qubic tokens</h3>
+              <p>
+                Choose supported ecosystem assets, review the QSwap route and fee context, then
+                approve the transaction in your connected wallet.
+              </p>
+              <a href="https://qubicswap.com/swap">Open Qubic token swaps</a>
+            </div>
+          </article>
+
+          <article class="market-card">
+            <img
+              src="./assets/orderbook.webp"
+              alt="QubicSwap QX order book market"
+              width="760"
+              height="388"
+              loading="lazy"
+            />
+            <div class="market-card-copy">
+              <p class="card-index">02 / Trade</p>
+              <h3>Trade on QX order books</h3>
+              <p>
+                Inspect bids, asks, recent trades, and market context for supported Qubic token
+                pairs.
+              </p>
+              <a href="https://qubicswap.com/orders">Explore Qubic markets</a>
+            </div>
+          </article>
+
+          <article class="market-card">
+            <img
+              src="./assets/liquidity.webp"
+              alt="QubicSwap QSwap liquidity interface"
+              width="760"
+              height="674"
+              loading="lazy"
+            />
+            <div class="market-card-copy">
+              <p class="card-index">03 / Earn</p>
+              <h3>Explore QSwap liquidity</h3>
+              <p>
+                Review supported liquidity pools and open the QSwap workflow for the market you
+                want to provide.
+              </p>
+              <a href="https://qubicswap.com/earn">View Qubic liquidity pools</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section routes" id="routes" aria-labelledby="routes-title">
+        <div class="section-heading compact">
+          <p class="section-label">Direct routes</p>
+          <h2 id="routes-title">Start where your trade starts</h2>
+        </div>
+
+        <div class="route-list">
+          <a href="https://qubicswap.com/swap">
+            <span class="route-number">01</span>
+            <span>
+              <strong>Qubic swap</strong>
+              <small>Swap supported Qubic ecosystem tokens</small>
+            </span>
+            <span class="route-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="https://qubicswap.com/orders">
+            <span class="route-number">02</span>
+            <span>
+              <strong>Token markets</strong>
+              <small>Trade Qubic assets through QX order books</small>
+            </span>
+            <span class="route-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="https://qubicswap.com/shares">
+            <span class="route-number">03</span>
+            <span>
+              <strong>Share markets</strong>
+              <small>Explore supported Qubic smart contract markets</small>
+            </span>
+            <span class="route-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="https://qubicswap.com/earn">
+            <span class="route-number">04</span>
+            <span>
+              <strong>QSwap liquidity</strong>
+              <small>Discover pools and liquidity workflows</small>
+            </span>
+            <span class="route-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading compact">
+          <p class="section-label">QubicSwap FAQ</p>
+          <h2 id="faq-title">The useful answers</h2>
+        </div>
+
+        <div class="faq-list">
+          <details open>
+            <summary>What is QubicSwap?</summary>
+            <p>
+              QubicSwap is a decentralized exchange interface for the Qubic ecosystem. It brings
+              supported Qubic token swaps, QX order books, share markets, and QSwap liquidity into
+              one app.
+            </p>
+          </details>
+          <details>
+            <summary>Can I swap Qubic tokens on QubicSwap?</summary>
+            <p>
+              Yes. QubicSwap provides a swap interface for supported Qubic ecosystem tokens and
+              shows route and fee context before wallet confirmation.
+            </p>
+          </details>
+          <details>
+            <summary>Is the QubicSwap repository public?</summary>
+            <p>
+              Yes. The
+              <a href="https://github.com/QubicSwap/QubicSwap-DEX">QubicSwap DEX repository</a>
+              is public on GitHub and links to the live application and its core market routes.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-labelledby="final-title">
+        <img src="./assets/qubicswap-icon.png" alt="" width="512" height="512" loading="lazy" />
+        <div>
+          <p class="section-label">Qubic markets, one app</p>
+          <h2 id="final-title">Ready to trade Qubic?</h2>
+          <p>Open the live DEX or review the public QubicSwap information repository.</p>
+        </div>
+        <div class="final-actions">
+          <a class="button button-primary" href="https://qubicswap.com/">Launch QubicSwap</a>
+          <a class="text-link" href="https://github.com/QubicSwap/QubicSwap-DEX">View on GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>QubicSwap DEX</p>
+      <nav aria-label="Footer navigation">
+        <a href="https://qubicswap.com/">App</a>
+        <a href="https://qubic.org/ecosystem/qubicswap">Qubic ecosystem</a>
+        <a href="https://github.com/QubicSwap/QubicSwap-DEX">GitHub</a>
+      </nav>
+    </footer>
+  </body>
+</html>
